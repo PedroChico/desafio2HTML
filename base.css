@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #bbb7b7;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(201, 63, 63);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    
+}
+.menu {
+    
+    width: 15%;
+    background-color: rgb(214, 209, 209);
+    padding: 10px 20px 0px;
+    font-weight: 800;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+    
+}
+.header {
+    background-color: #e04459;
+    min-height: 150px;
+    
+}
+.content {
+    background-color: rgb(235, 226, 226);
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #949090;
+    min-height: 150px; 
+}
+p {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+th {
+    width: 130px;
+    text-align: left;
+    background-color: red;
+    color: white;
+    
+}
+td {
+    text-align: left;
+    background-color: rgb(228, 223, 223);
+}
+a {
+    text-decoration: none;
+    font-size: small;
+}
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px;
+    position: relative; left: 170px;
+}
+input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px;
+    position: relative; left: 170px;
+}
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px;
+    position: relative; left: 170px;
+    
+}
+textarea {
+    position: relative; left: 170px;
+}
